@@ -8,7 +8,7 @@
     "bootstrap": "npm i && lerna exec npm install --concurrency 1",
     "build": "lerna run build",
     "test": "lerna run test",
-    "prepare": "husky install && husky install packages/subFolder1 && husky install packages/subFolder2"
+    "prepare": "husky install"
   },
   "devDependencies": {
     "lerna": "^5.5.2",
