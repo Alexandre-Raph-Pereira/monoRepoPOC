@@ -7,7 +7,7 @@ check_run() {
 }
 
 show_change() {
-	echo "$changed_files" | grep --quiet "$1"
+	echo "$changed_files" | grep "$1"
 }
 
 show_change package.json
