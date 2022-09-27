@@ -12,5 +12,8 @@
   },
   "devDependencies": {
     "lerna": "^5.5.2"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1"
   }
 }
